@@ -17,7 +17,7 @@ const Plabaid = () => {
 
 <div className='bg-opac p-4 md:p-8 mb-2'>
     
-      <h2 className={`${styles.heading2} text-white light p-2 mt-20 text-[30px] ` }> 
+      <h2 className={`${styles.heading2} text-white plab p-2 mt-20 text-[28px] ` }> 
       <FadeIn>
           Welcome to Plabaid!
           </FadeIn>
