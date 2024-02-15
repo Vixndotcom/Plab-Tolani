@@ -63,7 +63,7 @@ const Card = () => {
    <FadeIn >
        <h3 className=' p-2 flex underline mt-5 text-blue-700'>
         Learn More
-        <Link to='/services'> <img src={side} className='w-[10%] ml-5'/></Link>
+        <Link to='/services'> <img src={side} className='w-[12%] ml-2'/></Link>
        </h3>
        </FadeIn > 
        </div>
