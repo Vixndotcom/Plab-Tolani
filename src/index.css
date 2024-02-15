@@ -19,6 +19,12 @@
   scroll-behavior: smooth;
 }
 
+
+
+
+
+
+
 .light {
   font-family: open-light;
 }
@@ -31,6 +37,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@media(max-width:620px) {
+  body{
+     margin: 0;
+     padding: 0;
+     height: 100%;
+  }
+  html{
+    margin: 0;
+    padding: 0;
+    height: 0;
+    
+  }
+  .content{
+    padding: 20px;
+  }
+}
+
+
 
 
 .bg-body {
@@ -47,8 +74,7 @@
   .bg-body {
     background-image: url(assets//image.GIF);
     background-size: cover;
-     /* background-repeat: repeat; */
-    /* min-height: 100vh; */
+    height:100vh ;
      background-position: center;
 
     background-size: auto;
@@ -582,3 +608,4 @@
   max-width: 470px;
   margin: auto;
 }
+
