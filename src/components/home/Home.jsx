@@ -36,10 +36,12 @@ useEffect(() =>{
   
 
 
-    <div className='w-full overflow-hidden bg-body '> 
-    <div >
+    <div className='w-full overflow-hidden parallex-con  '> 
+    <div className='bg-body'>
+    <div className='content'>
+  
    {/* hero section */}
-    
+   <div >
    <div className={`${styles.flexStart} `}>
         <div className={`${styles.boxWidth} `}>
            < Hero />
@@ -80,6 +82,8 @@ useEffect(() =>{
         
     </div>  
     
+    </div>
+    </div>
     </div>
 
  
