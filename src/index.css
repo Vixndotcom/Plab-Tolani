@@ -62,7 +62,7 @@
 
   .bg-body{
     background-image: url(assets/image.GIF);
-    background-size:contain;
+    background-size:cover;
     height: 100vh;
     width: 100%;
     
