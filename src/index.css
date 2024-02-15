@@ -35,9 +35,22 @@ font-family: open-bold;
    background-repeat: no-repeat;
    background-color: black;
    /* font-family: fauna-thin; */
-
-
 }
+
+@media(max-width:620px){
+
+  .bg-body{
+  background-image: url(assets//image.GIF);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  background-position: center;
+  /* margin: 0; */
+  
+  background-attachment: fixed;
+  }
+}
+
 .bg-bodyy{
   background-image:url(assets/cell.png) ;
   background-attachment:fixed ;

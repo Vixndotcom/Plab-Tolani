@@ -62,7 +62,7 @@ return (
    
 
 <div className={` ${navList ? 'flex' : 'hidden'} p-12 glass-nav light
-            absolute top-16 mt-10 right-0 mx-2 my-2 w-full h-screen rounded-xl sidebar mr-2 z-[6]`}>
+            absolute top-16 mt-10 right-4 my-2 w-full h-screen rounded-xl sidebar mr-2 z-[6]`}>
 
 
 <ul className=' list-none justify-center items-center flex-1 '> 
