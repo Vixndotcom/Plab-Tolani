@@ -38,7 +38,7 @@ useEffect(() =>{
 {/* 
 hero section */}
     {/* <div > */}
-   
+   <div className='bg-body'></div>
    <div className={`${styles.flexStart} `}>
         <div className={`${styles.boxWidth} parallex-con`}>
            < Hero />
