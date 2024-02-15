@@ -44,14 +44,14 @@
   body{
      margin: 0;
      padding: 0;
-     height: 100%;
+     
   }
-  html{
+  /* html{
     margin: 0;
     padding: 0;
-    height: 0;
+    height: 0; 
     
-  }
+  } */
   .parallex-con{
     position: relative;
     height: 100vh;
@@ -67,11 +67,12 @@
     top: 0;
     left: 0;
     z-index: -1;
+    background-attachment: fixed;
   }
   .content{
     padding: 20px;
   }
-}
+  }
 
 
 
@@ -84,7 +85,7 @@
   background-color: black;
   /* font-family: fauna-thin; */
 }
-
+/* 
 @media(max-width:620px) {
 
   .bg-body {
@@ -94,11 +95,11 @@
      background-position: center;
 
     background-size: auto;
-    /* margin: 0; */
+ 
 
     background-attachment: fixed;
   }
-}
+} */
 
 .bg-bodyy {
   background-image: url(assets/cell.png);
