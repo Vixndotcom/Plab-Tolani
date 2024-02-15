@@ -63,7 +63,7 @@
   background-attachment: fixed;
   background-position: left;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   /* margin: auto; */
   /* max-width: 80%; */
   /* width: 1280px; */
