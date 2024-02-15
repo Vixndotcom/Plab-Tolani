@@ -15,8 +15,8 @@ const Footer = () => {
 
   return (
 
-    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
-        <div className={`${styles.flexStart}  flex-row mb-8 w-full`}>
+    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col position:fixed bottom-0`}>
+        <div className={`${styles.flexStart}  flex-row mb-8 w-full bottom-0`}>
        <div className='flex-1 flex flex-col justify-start'>
         <h1 className='font-normal text-[32px] md:mt-4 plab mt-14 text-gradient'>PLAbAiD</h1>
 
@@ -36,7 +36,8 @@ const Footer = () => {
         {/* <li className='light text-white text-[20px]'>
           
         </li> */}
-             <p className={`${styles.paragraph} text-white light font-normal text-[18px] hover:text-blue-500    cursor-pointer`}  >
+             <p className={`${styles.paragraph} text-white light font-normal text-[18px] hover:text-blue-500    
+             cursor-pointer`}  >
         
         <a href={`mailto:${emailAddress}`}>{emailAddress}</a>
 

@@ -39,6 +39,7 @@ const Card = () => {
    
   return (
     <section id='features' className={`${layout.section} `}>
+      <div className='bg-body'></div>
        <div className={`${layout.sectionInfo} bg-opac p-4 md:p-8 mb-2`}>
       
         <h2 className={`${styles.heading2} light p-2 mt-20 text-[28px]`}> 

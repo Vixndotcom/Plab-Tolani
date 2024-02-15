@@ -40,7 +40,7 @@ const Pages = () => {
             < Scroll />
            </div>
 
-        <div className={`bg-black  ${styles.paddingX} ${styles.flexStart} `}>
+        <div className={`bg-black  ${styles.paddingX} ${styles.flexStart} bottom-0`}>
         <div className={`${styles.boxWidth}`}>
           
     

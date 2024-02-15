@@ -35,22 +35,19 @@ useEffect(() =>{
     <>
   
 
-
-    <div className='w-full overflow-hidden parallex-con  '> 
-    <div className='bg-body'>
-    <div className='content'>
-  
-   {/* hero section */}
-    <div >
+{/* 
+hero section */}
+    {/* <div > */}
+   <div className='bg-body'></div>
    <div className={`${styles.flexStart} `}>
-        <div className={`${styles.boxWidth} `}>
+        <div className={`${styles.boxWidth} parallex-con`}>
            < Hero />
     </div>
     </div>
     
-    </div>
-    
-    <div className={` ${styles.paddingX} ${styles.flexStart}  `}>
+    {/* </div> */}
+   
+    <div className={` ${styles.paddingX} ${styles.flexStart} parallex-con `}>
         <div className={`${styles.boxWidth} `}>
            < Plabaid />
           
@@ -59,7 +56,7 @@ useEffect(() =>{
     </div>       
    
     
-    <div className={` ${styles.paddingX} ${styles.flexStart}  `}>
+    <div className={` ${styles.paddingX} ${styles.flexStart}  parallex-con `}>
         <div className={`${styles.boxWidth} `}>
            < Card />
           
@@ -81,11 +78,9 @@ useEffect(() =>{
         </div>
         
     </div>   
+   
   
-    
-    </div>
-    </div>
-    </div>
+
 
  
  </> 
