@@ -47,7 +47,7 @@
   .bg-body {
     background-image: url(assets//image.GIF);
     background-size: cover;
-    /* background-repeat: no-repeat; */
+     background-repeat: repeat;
     /* min-height: 100vh; */
      background-position: center;
 
