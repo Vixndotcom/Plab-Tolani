@@ -41,11 +41,12 @@
 
 
 @media(max-width:620px) {
-  body{
+  /* body{
      margin: 0;
      padding: 0;
      
-  }
+     
+  } */
   /* html{
     margin: 0;
     padding: 0;
@@ -61,7 +62,7 @@
   .bg-body{
     background-image: url(assets/image.GIF);
     background-size: cover;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     position: absolute;
     top: 0;

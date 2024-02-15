@@ -41,7 +41,7 @@ useEffect(() =>{
     <div className='content'>
   
    {/* hero section */}
-   <div >
+    <div >
    <div className={`${styles.flexStart} `}>
         <div className={`${styles.boxWidth} `}>
            < Hero />
@@ -80,7 +80,8 @@ useEffect(() =>{
           
         </div>
         
-    </div>  
+    </div>   
+  
     
     </div>
     </div>
