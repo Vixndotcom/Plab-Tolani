@@ -44,7 +44,7 @@
 @tailwind utilities;
 
 body{
-  background-color: black;
+  background:none;
 }
 
 @media(max-width:620px) {
@@ -54,7 +54,7 @@ body{
 
 @media(min-width:620px) {
   .bg-body{
-    background-image:url(assets/image.gif);
+    background-image:url(assets/IMG_5422.GIF);
     background-attachment:fixed ;
      background-position: center; 
      background-repeat: no-repeat;
@@ -487,7 +487,12 @@ body{
 .my-div {
   transition: opacity 1s ease-in-out;
 }
+.circlee{
+  background:url(assets/IMG_5422.GIF);
+  width: 100%;
+  height: 100%;
 
+}
 
 .hiddenn {
   /* overflow: hidden; */

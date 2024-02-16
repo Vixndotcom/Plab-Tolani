@@ -26,14 +26,14 @@ import young from './young.jpg'
 import side from './side-arrow.png'
 import sideform from './side-blue.png'
 import arrowform from './arrow-blue.png'
-import giff from './image.gif'
+
      
 
 
 
 
 export {
-    giff,
+    
     top,
     side,
     sideform,

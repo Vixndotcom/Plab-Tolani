@@ -15,8 +15,8 @@ const Footer = () => {
 
   return (
 
-    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col position:fixed bottom-0`}>
-        <div className={`${styles.flexStart}  flex-row mb-8 w-full bottom-0`}>
+    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col  `}>
+        <div className={`${styles.flexStart}  flex-row mb-8 w-full `}>
        <div className='flex-1 flex flex-col justify-start'>
         <h1 className='font-normal text-[32px] md:mt-4 plab mt-14 text-gradient'>PLAbAiD</h1>
 

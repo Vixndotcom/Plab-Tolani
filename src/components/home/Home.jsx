@@ -12,7 +12,7 @@ import gsap from 'gsap'
 import Loader from '../Loader'
 import Steps from '../Steps'
 import { Background, Parallax } from 'react-parallax'
-import { giff, strategy, study, } from '../../assets'
+import {  strategy, study, } from '../../assets'
 
 
 
@@ -40,27 +40,27 @@ useEffect(() =>{
 
     <>
   
-
+<div className='bg-body'>
 {/* hero section */}
 
 <Parallax
 
- strength={1000}>
+ strength={1000} >
    
    
 
    <Background>
    
-    <img  src={giff}   style={{ margin: '60px auto'}} className='bg'/> 
+  
 
        
-   </Background> 
+   </Background>  
 
 
 
 
-   <div className={`${styles.flexStart} `} >
-        <div className={`${styles.boxWidth} `}>
+   <div className={`${styles.flexStart}  `} >
+        <div className={`${styles.boxWidth} `}  >
           
            < Hero />
           
@@ -75,7 +75,7 @@ useEffect(() =>{
     {/* </div> */}
     <Parallax strength={1000}>
     <Background>
-   <img src={giff} alt=""  className='bg'/>
+   <img alt=""  className='circlee'/>
 
        
    </Background> 
@@ -97,7 +97,7 @@ useEffect(() =>{
     <Parallax strength={1000} >
        
        <Background>
-    <img src={giff} alt=""  className='bg'/>
+    <img  alt=""  className='bg'/>
 
        
     </Background> 
@@ -116,7 +116,7 @@ useEffect(() =>{
     <Parallax strength={1000} >
        
        <Background>
-    <img src={giff} alt=""  className='bg'/>
+    <img  alt=""  className='bg'/>
 
        
     </Background> 
@@ -136,7 +136,7 @@ useEffect(() =>{
     <Parallax strength={1000} >
        
        <Background>
-    <img src={giff} alt=""  className='bg'/>
+    <img  alt=""  className='bg'/>
 
        
     </Background> 
@@ -161,7 +161,7 @@ useEffect(() =>{
 
   
    
-
+</div>
 
  </> 
 

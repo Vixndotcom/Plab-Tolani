@@ -15,7 +15,7 @@ const Plabaid = () => {
     <section id="home" className={`flex md:flex-row text-start mx-auto mt-0
     ${styles.paddingY}`} >
 
-<div className='bg-opac p-4 md:p-8 mb-2'>
+<div className='bg-opac p-8 mb-2'>
     
       <h2 className={`${styles.heading2} text-white light p-2 mt-20 text-[28px] ` }> 
       <FadeIn>

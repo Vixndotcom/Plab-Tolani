@@ -7,8 +7,6 @@ import Recruitment from "./Recruitment";
 import Loaderr from "../Loaderr";
 
 
-
-
 const AboutUs = () => {
 
 
@@ -28,6 +26,8 @@ const AboutUs = () => {
         </div>
       </div>
 <div className="bg-bodyy">
+
+
       <div   className={`${styles.flexCenter}  `}>
         <div  className={`${styles.boxWidth}  `}>
         < Medic />
