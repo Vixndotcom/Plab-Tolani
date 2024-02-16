@@ -47,7 +47,7 @@ const Pages = () => {
            < Footer/> 
       
         </div>
-      </div>
+      </div> 
 
 
           

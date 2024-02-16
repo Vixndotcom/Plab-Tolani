@@ -23,7 +23,7 @@ const Navbar = () => {
 
 return ( 
   <>
-  <navbar className='nav-section md:w-[92%] xl:w-[50%]  body'>
+  <navbar className='nav-section md:w-[92%] xl:w-[50%]  body z-[999]'>
   <div className='w-full flex py-4 justify-between
       items-center navbar bg-transparent '>
 

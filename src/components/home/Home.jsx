@@ -11,11 +11,17 @@ import { useIntersection } from 'react-use'
 import gsap from 'gsap'
 import Loader from '../Loader'
 import Steps from '../Steps'
+import { Background, Parallax } from 'react-parallax'
+import { giff, strategy, study, } from '../../assets'
+
+
+
 
 
 
 const Home = () => {
 const [loading, setLoading] = useState(true);
+
 
 useEffect(() =>{
    const timeout = setTimeout(() =>{
@@ -35,67 +41,135 @@ useEffect(() =>{
     <>
   
 
-{/* 
-hero section */}
-    {/* <div > */}
-   <div className='bg-body'>
-   <div className={`${styles.flexStart} `}>
-        <div className={`${styles.boxWidth}  `}>
-          <div className='boxx'>
+{/* hero section */}
+
+<Parallax
+
+ strength={1000}>
+   
+   
+
+   <Background>
+   
+    <img  src={giff}   style={{ margin: '60px auto'}} className='bg'/> 
+
+       
+   </Background> 
+
+
+
+
+   <div className={`${styles.flexStart} `} >
+        <div className={`${styles.boxWidth} `}>
+          
            < Hero />
           
-    </div>
-    </div>
-    </div>
-    
-    {/* </div> */}
    
+    </div>
+    </div>
+            
+</Parallax>
+{/* )} */}
+    
+
+    {/* </div> */}
+    <Parallax strength={1000}>
+    <Background>
+   <img src={giff} alt=""  className='bg'/>
+
+       
+   </Background> 
+
+
     <div className={` ${styles.paddingX} ${styles.flexStart}  `}>
         <div className={`${styles.boxWidth}  `}>
-         <div className='boxx'>
+
+   
+
+         
            < Plabaid />
           
         </div>
         </div>
         
-    </div>       
+        </Parallax>
    
-    
+    <Parallax strength={1000} >
+       
+       <Background>
+    <img src={giff} alt=""  className='bg'/>
+
+       
+    </Background> 
     <div className={` ${styles.paddingX} ${styles.flexStart} `}>
         <div className={`${styles.boxWidth}  `}>
-         <div className='boxx'>
+         
            < Card />
           
         </div>
         </div>
         
-    </div>  
-    <div className={` ${styles.paddingX} ${styles.flexStart}  `}>
-        <div className={`${styles.boxWidth} `}>
+     
+
+     </Parallax>
+ 
+    <Parallax strength={1000} >
+       
+       <Background>
+    <img src={giff} alt=""  className='bg'/>
+
+       
+    </Background> 
+    <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+        <div className={`${styles.boxWidth}  `}>
+         
            < Misson />
           
         </div>
+        </div>
         
-    </div>  
+     
 
-    <div className={` ${styles.paddingX} ${styles.flexStart}  `}>
-        <div className={`${styles.boxWidth} `}>
+     </Parallax>
+ 
+ 
+    <Parallax strength={1000} >
+       
+       <Background>
+    <img src={giff} alt=""  className='bg'/>
+
+       
+    </Background> 
+    <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+        <div className={`${styles.boxWidth}  `}>
+         
            < Steps />
           
         </div>
+        </div>
         
-    </div>   
-    </div>   
-   
-  
+     
 
-
+     </Parallax>
  
+
+
+
+
+
+
+
+  
+   
+
+
  </> 
 
 )}
 
 </div>
+
+
  );
 
 };

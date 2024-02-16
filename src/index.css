@@ -34,51 +34,35 @@
 }
 
 
+.bg{
+  background-size: cover;
+  margin-top: 50%
+
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+  background-color: black;
+}
 
 @media(max-width:620px) {
-    body{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     }
-    
-     .boxx{
-      width: 100vw;
-      height: 100vh;
-      background-position: center;
-      background-size: contain;
-        display: table;  
-      background-attachment: fixed;  
-     }
-     .boxx:nth-child(1){
-      background-image:url(assets/cell.png);
-      position: relative;
-     }
-     .boxx:nth-child(2){
-     background-image: url(assets/image.GIF);}
+ 
 
-     .boxx:nth-child(3){
-     background-image: url(assets/image.GIF);}
-     
   }  
 
+@media(min-width:620px) {
+  .bg-body{
+    background-image:url(assets/image.GIF);
+    background-attachment:fixed ;
+     background-position: center; 
+     background-repeat: no-repeat;
+     background-color: black;
+     /* font-family: fauna-thin; */}
+  }
 
 
-@media(min-width:620px){
-.bg-body {
-  background-image: url(assets/image.GIF);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: black;
-  /* font-family: fauna-thin; */
-} 
-}
 
 
 
