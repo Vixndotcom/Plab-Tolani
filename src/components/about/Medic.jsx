@@ -22,7 +22,7 @@ const Medic = () => {
 
 
     tl.to(containerr, 2, { css: { visibility: 'visible' } }).to(
-      imageReveal, 1.4, { width: '90%', ease: Power3.easeInOut })
+      imageReveal, 1.4, { width: '100%', ease: Power3.easeInOut })
 
   });
 
