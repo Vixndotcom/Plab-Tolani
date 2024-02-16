@@ -10,7 +10,7 @@ const CvWriting = () => {
 
 
    return(
-    <section className= {`${styles.flexCenter}  sm:px-16 px-6 mx-auto  `}>
+    <section className= {`${styles.flexCenter}  sm:px-16 px-2 mx-auto  `}>
         <BodyAni>
         <div className='flex flex-row  md:p-8  justify-content-center mt-20 mb-5 border-service     '>  
      

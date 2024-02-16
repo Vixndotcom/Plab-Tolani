@@ -5,7 +5,7 @@ import BodyAni from '../BodyAni'
 
 const CoverLetters = () => 
     (
-        <section className= {`${styles.flexCenter}  sm:px-16 px-6 mx-auto  `}>
+        <section className= {`${styles.flexCenter}  sm:px-16 px-2 mx-auto  `}>
            {/* <div className={`${styles.flexCenter} flex flex-row p-6 rounded-[20px] justify-content-center mt-20 mb-5 ` }>  */}
     
            <BodyAni>
