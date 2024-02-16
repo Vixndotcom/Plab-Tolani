@@ -54,7 +54,7 @@ body{
 
 @media(min-width:620px) {
   .bg-body{
-    background-image:url(assets/image.GIF);
+    background-image:url(assets/image.gif);
     background-attachment:fixed ;
      background-position: center; 
      background-repeat: no-repeat;
@@ -290,9 +290,6 @@ body{
 
 }
 
-.bg-nav {
-  background-image: url(assets/IMG_4810.JPG);
-}
 
 
 .active-button {
