@@ -30,8 +30,11 @@ return(
  <div className='about  md:max-w-[60%] md:text-[36px]  justify-content-center xl:px-0  p-2 ' > 
 
       <BodyAni>
- <div className=' flex flex  flex-col borderr containerr' ref={el => (containerr = el)}>
-        <img src={up} alt="" className='w-[16%] sm:w-[8%]  p-2 mx-2  '/>
+ <div className=' flex flex  flex-col borderr containerr  ' ref={el => (containerr = el)}  >
+
+        
+        <img src={up} alt="" className='w-[64px] h-[64px] p-2 mx-2  '/>
+    
 
        <div className='clip '>
       <img src={ shake} alt="star" className="  middle  object-contain clip " ref={el => (pictureRef = el)} />

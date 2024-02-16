@@ -19,7 +19,7 @@ const CoverLetters = () =>
            
            {/* right */}
            <div className="flex-1 flex flex-col md:mx-20 mx-2 ">
-           <img src={hand} alt="" className="max-w-[100%] ml-5" />
+           <img src={hand} alt="" className="max-w-[100%] ml-5 object-contain overflow-hidden"  />
            {/* text */}
            <h4 className="light font-normal text-[24px] leading-[23.4px]  head-text  mt-3 p-6  ">
            Cover Letters
