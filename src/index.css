@@ -51,16 +51,16 @@
       width: 100vw;
       height: 100vh;
       background-position: center;
-      background-size: cover;
+      background-size: contain;
         display: table;  
       background-attachment: fixed;  
      }
      .boxx:nth-child(1){
-      background-image:url(assets/image.GIF);
+      background-image:url(assets/cell.png);
       position: relative;
      }
      .boxx:nth-child(2){
-     background-image: url(assets/cell.png);}
+     background-image: url(assets/image.GIF);}
 
      .boxx:nth-child(3){
      background-image: url(assets/image.GIF);}
