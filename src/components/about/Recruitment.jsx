@@ -31,7 +31,7 @@ return(
 
       <BodyAni>
  <div className=' flex flex  flex-col borderr containerr' ref={el => (containerr = el)}>
-        <img src={up} alt="" className='w-[16%] p-2 mx-2  '/>
+        <img src={up} alt="" className='w-[16%]sm:w-[12%]  p-2 mx-2  '/>
 
        <div className='clip '>
       <img src={ shake} alt="star" className="  middle  object-contain clip " ref={el => (pictureRef = el)} />

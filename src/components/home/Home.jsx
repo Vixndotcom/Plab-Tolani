@@ -38,28 +38,35 @@ useEffect(() =>{
 {/* 
 hero section */}
     {/* <div > */}
-   <div className='bg-body'></div>
+   <div className='bg-body'>
    <div className={`${styles.flexStart} `}>
-        <div className={`${styles.boxWidth} parallex-con`}>
+        <div className={`${styles.boxWidth}  `}>
+          <div className='boxx'>
            < Hero />
+          
+    </div>
     </div>
     </div>
     
     {/* </div> */}
    
-    <div className={` ${styles.paddingX} ${styles.flexStart} parallex-con `}>
-        <div className={`${styles.boxWidth} `}>
+    <div className={` ${styles.paddingX} ${styles.flexStart}  `}>
+        <div className={`${styles.boxWidth}  `}>
+         <div className='boxx'>
            < Plabaid />
           
+        </div>
         </div>
         
     </div>       
    
     
-    <div className={` ${styles.paddingX} ${styles.flexStart}  parallex-con `}>
-        <div className={`${styles.boxWidth} `}>
+    <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+        <div className={`${styles.boxWidth}  `}>
+         <div className='boxx'>
            < Card />
           
+        </div>
         </div>
         
     </div>  
@@ -77,6 +84,7 @@ hero section */}
           
         </div>
         
+    </div>   
     </div>   
    
   
