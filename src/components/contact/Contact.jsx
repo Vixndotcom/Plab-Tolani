@@ -23,7 +23,7 @@ const Contact = () => {
     </div>
     </div>
 
-     <div className={`${styles.flexStart} `}>
+     <div className={`${styles.flexStart}  `}>
         <div className={`${styles.boxWidth} `}>
         < Email />
     </div>

@@ -603,12 +603,12 @@ body{
 
   
   }}
-
+ 
 @media(max-width:620px) {
-  body{
+  .grey{
    background-color: black;
   }
-}
+} 
 
 .celll{
  

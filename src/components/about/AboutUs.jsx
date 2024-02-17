@@ -34,13 +34,13 @@ const AboutUs = () => {
         </div>
       </div>
    
-      <div    className={`${styles.flexCenter}`}>
+      <div    className={`${styles.flexCenter} `}>
         <div     className={`${styles.boxWidth}   `}>
         < CvMaster />
         </div>
       </div>
 
-      <div   className={`${styles.flexCenter}  `}>
+      <div   className={`${styles.flexCenter} `}>
         <div   className={`${styles.boxWidth}  `}>
         < Recruitment />
         </div>

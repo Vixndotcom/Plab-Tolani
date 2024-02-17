@@ -39,7 +39,7 @@ useEffect(() =>{
 
     <>
   
-<div className='bg-body by-blackk'>
+<div className='bg-body by-blackk grey'>
 
 
 {/* hero section */}
