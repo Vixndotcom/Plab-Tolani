@@ -67,7 +67,7 @@ useEffect(() =>{
         
         
       
-    <Background  style={{width:'100vw'}} className='celll'  >
+    <Background  style={{width:'100vw'}} className='celll mt-10'  >
          <img src={med} alt=""  />
   
         
@@ -91,7 +91,7 @@ useEffect(() =>{
         </Parallax>
    
         <Parallax strength={1000}  >
-        <Background  style={{width:'100vw'}} className='celll'  >
+        <Background  style={{width:'100vw'}} className='celll mt-20'  >
          <img src={symbol} alt=""  />
   
         
