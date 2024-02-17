@@ -29,10 +29,12 @@ import arrowform from './arrow-blue.png'
 import transparent from './transparent.png'
     import med from './med.jpg' 
     import symbol from './symbol.jpg'
-
+    import bulb from './bulb.jpg'
+    
 
 
 export {
+    bulb,
     symbol,
     med,
     transparent,

@@ -12,7 +12,7 @@ import gsap from 'gsap'
 import Loader from '../Loader'
 import Steps from '../Steps'
 import { Background, Parallax } from 'react-parallax'
-import {  med, strategy, study, symbol, transparent, } from '../../assets'
+import {  bulb, med, strategy, study, symbol, transparent, } from '../../assets'
 
 
 
@@ -109,14 +109,16 @@ useEffect(() =>{
     
      
      </Parallax>
- 
-    <Parallax strength={1000} >
-       
-       <Background>
-    <img  alt=""  className='bg'/>
 
-       
-    </Background> 
+     <Parallax strength={1000}  >
+        <Background  style={{width:'100vw'}} className='celll mt-20'  >
+         <img src={bulb} alt=""  />
+  
+        
+
+      </Background>
+
+
     <div className={` ${styles.paddingX} ${styles.flexStart} `}>
         <div className={`${styles.boxWidth}  `}>
          

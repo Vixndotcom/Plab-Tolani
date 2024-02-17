@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import styles from '../style'
-import { arrowform, arrowside, purple, sideform } from '../assets';
+import { arrowform, arrowside, purple, side } from '../assets';
 import Hidden from './home/Hidden';
 import FadeIn from './home/FadeIn';
+import { Link } from 'react-router-dom';
 
 
 arrowform
@@ -27,7 +28,7 @@ const toggleItemmm = () => {
 
 
   return (
-    <section className={`${styles.flexCenter} flex flex-col flex flex-row mt-20 mb-20  ` }>
+    <section className={`${styles.flexCenter} flex flex-col flex flex-row mt-20 mb-20 spin ` }>
         <div className='mb-20 max-w-[470px] mx-auto mt-5'>
       <FadeIn>
      <div className='border-work p-4 '>
@@ -50,7 +51,7 @@ const toggleItemmm = () => {
     </div>
 {showItem  && (
     <div>
-        <p className='light text-[16px] text-white max-w-[320px] mt-5 text-center mx-auto '>
+        <p className='light text-[16px] text-white max-w-[320px] mt-5 text-center mx-auto'>
             Be intentional about your medical career
         </p>
     </div>
@@ -69,8 +70,8 @@ const toggleItemmm = () => {
     </div>
 {showItemm  && (
     <div>
-        <p className='light text-[16px] text-white max-w-[320px] mt-5 text-center mx-auto '>
-            Fill form on contact page 
+        <p className='light text-[16px] text-white max-w-[320px] mt-5 text-center mx-auto   '>
+            Fill form on contact page <Link to='/contact' className='text-center mt-2'> <img src={side} className='w-[12%] mx-auto'/></Link>
         </p>
     </div>
  
@@ -89,7 +90,7 @@ const toggleItemmm = () => {
 {showItemmm  && (
     <div className=''>
         <p className='light text-[16px] text-white max-w-[320px] mt-5 text-center mx-auto'>
-            With our writing skills, we help you reach all requirements to land you the employment
+            With our writing skills, we will help you reach all requirements to land you the employment
         </p>
     </div>
  
