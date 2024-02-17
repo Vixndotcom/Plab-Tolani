@@ -12,7 +12,7 @@ import gsap from 'gsap'
 import Loader from '../Loader'
 import Steps from '../Steps'
 import { Background, Parallax } from 'react-parallax'
-import {  strategy, study, } from '../../assets'
+import {  strategy, study, transparent, } from '../../assets'
 
 
 
@@ -40,46 +40,34 @@ useEffect(() =>{
 
     <>
   
-<div className='bg-body'>
+<div className='bg-body by-blackk'>
+
+
 {/* hero section */}
 
-<Parallax
-
- strength={1000} >
-   
-   
-
-   <Background>
-   
-  
-
-       
-   </Background>  
+   <Parallax strength={1000}  bgImage={transparent}>
 
 
-
-
-   <div className={`${styles.flexStart}  `} >
+   <div className={`${styles.flexStart} `} >
         <div className={`${styles.boxWidth} `}  >
-          
+        
            < Hero />
           
-   
+         
     </div>
     </div>
-            
-</Parallax>
+    </Parallax>
+
 {/* )} */}
     
 
     {/* </div> */}
-    <Parallax strength={1000}>
-    <Background>
-   <img alt=""  className='circlee'/>
 
-       
-   </Background> 
 
+    <Parallax
+
+strength={1000}  bgImage={strategy}>
+  
 
     <div className={` ${styles.paddingX} ${styles.flexStart}  `}>
         <div className={`${styles.boxWidth}  `}>

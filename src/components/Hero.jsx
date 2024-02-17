@@ -11,7 +11,7 @@ const hero = () => {
 
 
   return (
-    <section id="home" className={`flex md:flex-row flex- md:mt-36  mt-36  mb-10 text-center mx-auto
+    <section id="home" className={`flex md:flex-row flex- md:mt-36  mt-36  mb-10 text-center mx-auto spin
       ${styles.paddingY} `} >
         
     

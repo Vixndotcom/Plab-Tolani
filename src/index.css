@@ -593,3 +593,19 @@ body{
   margin: auto;
 }
 
+
+@media(max-width:620px) {
+.spin{
+  background-position: center;
+  
+  background: url(assets/IMG_5422.GIF) no-repeat ;
+  background-size: contain;
+
+  
+  }}
+
+@media(max-width:620px) {
+  body{
+   background-color: black;
+  }
+}
