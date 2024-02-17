@@ -12,8 +12,7 @@ import gsap from 'gsap'
 import Loader from '../Loader'
 import Steps from '../Steps'
 import { Background, Parallax } from 'react-parallax'
-import {  strategy, study, transparent, } from '../../assets'
-
+import {  med, strategy, study, symbol, transparent, } from '../../assets'
 
 
 
@@ -45,7 +44,7 @@ useEffect(() =>{
 
 {/* hero section */}
 
-   <Parallax strength={1000}  bgImage={transparent}>
+   <Parallax strength={1000}  bgImage={transparent} height={400} content='firstSection'> 
 
 
    <div className={`${styles.flexStart} `} >
@@ -64,41 +63,51 @@ useEffect(() =>{
     {/* </div> */}
 
 
-    <Parallax
-
-strength={1000}  bgImage={strategy}>
+    <Parallax strength={1000}   >
+        
+        
+      
+    <Background  style={{width:'100vw'}} className='celll'  >
+         <img src={med} alt=""  />
   
+        
 
-    <div className={` ${styles.paddingX} ${styles.flexStart}  `}>
-        <div className={`${styles.boxWidth}  `}>
-
+      </Background>
+     <div className={` ${styles.paddingX} ${styles.flexStart}  `}>
+      
+        <div className={`${styles.boxWidth}  `}> 
    
 
+
+        < Plabaid />
+     
+      
          
-           < Plabaid />
+         
           
         </div>
-        </div>
+        </div> 
         
         </Parallax>
    
-    <Parallax strength={1000} >
-       
-       <Background>
-    <img  alt=""  className='bg'/>
+        <Parallax strength={1000}  >
+        <Background  style={{width:'100vw'}} className='celll'  >
+         <img src={symbol} alt=""  />
+  
+        
 
-       
-    </Background> 
-    <div className={` ${styles.paddingX} ${styles.flexStart} `}>
+      </Background>
+
+
+     <div className={` ${styles.paddingX} ${styles.flexStart} `}>
         <div className={`${styles.boxWidth}  `}>
          
-           < Card />
-          
+         
+          <Card />
         </div>
-        </div>
-        
+        </div> 
+    
      
-
      </Parallax>
  
     <Parallax strength={1000} >

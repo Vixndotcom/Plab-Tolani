@@ -27,12 +27,14 @@ import side from './side-arrow.png'
 import sideform from './side-blue.png'
 import arrowform from './arrow-blue.png'
 import transparent from './transparent.png'
-     
-
+    import med from './med.jpg' 
+    import symbol from './symbol.jpg'
 
 
 
 export {
+    symbol,
+    med,
     transparent,
     top,
     side,

@@ -597,9 +597,9 @@ body{
 @media(max-width:620px) {
 .spin{
   background-position: center;
-  
   background: url(assets/IMG_5422.GIF) no-repeat ;
   background-size: contain;
+  
 
   
   }}
@@ -608,4 +608,10 @@ body{
   body{
    background-color: black;
   }
+}
+
+.celll{
+ 
+  width: 100vw;
+  height: 100vh;
 }

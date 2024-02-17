@@ -8,7 +8,7 @@ import FadeIn from '../home/FadeIn'
 
 const Misson = () => (
 
- <section className={`${styles.flexCenter} flex flex-col flex flex-row mt-10 mb-20 ` }>
+ <section className={`${styles.flexCenter} flex flex-col flex flex-row mt-10 mb-20 spinn` }>
     <div className='mb-10 mt-10'>
    <div className='max-w-[470px] border-book   '>
 
