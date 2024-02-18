@@ -12,7 +12,7 @@ import gsap from 'gsap'
 import Loader from '../Loader'
 import Steps from '../Steps'
 import { Background, Parallax } from 'react-parallax'
-import {  bulb, med, strategy, study, symbol, transparent, } from '../../assets'
+import {  bulb, med, settings, strategy, study, symbol, transparent, } from '../../assets'
 
 
 
@@ -44,7 +44,7 @@ useEffect(() =>{
 
 {/* hero section */}
 
-   <Parallax strength={1000}  bgImage={transparent} height={400} content='firstSection'> 
+   <Parallax strength={1000}  bgImage={transparent} height={400} > 
 
 
    <div className={`${styles.flexStart} `} >
@@ -132,13 +132,18 @@ useEffect(() =>{
      </Parallax>
  
  
-    <Parallax strength={1000} >
        
-       <Background>
-    <img  alt=""  className='bg'/>
+      
+     <Parallax strength={1000}  >
+        <Background  style={{width:'100vw'}} className='celll mt-20'  >
+         <img src={settings} alt=""  />
+  
+        
+
+      </Background>
 
        
-    </Background> 
+
     <div className={` ${styles.paddingX} ${styles.flexStart} `}>
         <div className={`${styles.boxWidth}  `}>
          

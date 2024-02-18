@@ -36,8 +36,8 @@ return(
         <img src={up} alt="" className='w-[64px] h-[64px] p-2 mx-2  '/>
     
 
-       <div className='clip '>
-      <img src={ shake} alt="star" className="  middle  object-contain clip " ref={el => (pictureRef = el)} />
+       <div className='mt-2 '>
+      <img src={ shake} alt="star" className="  middle  object-contain clip  " ref={el => (pictureRef = el)} />
     
     </div>
     </div>

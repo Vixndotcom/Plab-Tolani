@@ -30,10 +30,11 @@ import transparent from './transparent.png'
     import med from './med.jpg' 
     import symbol from './symbol.jpg'
     import bulb from './bulb.jpg'
-    
+    import settings from './settings.jpg'
 
 
 export {
+    settings,
     bulb,
     symbol,
     med,

@@ -36,7 +36,7 @@ const Plabaid = () => {
 
           
             <FadeIn>
-            <h3 className=' p-2 flex underline mt-5 text-blue-700'>
+            <h3 className=' p-2 flex underline mt-5 text-blue-700 light'>
             Learn More
             <Link to='/about'> <img src={side} className='w-[12%] ml-2'/></Link>
            </h3>

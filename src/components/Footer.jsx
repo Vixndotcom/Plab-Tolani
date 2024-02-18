@@ -1,12 +1,10 @@
+
 import React from 'react'
 import styles from '../style'
 import { footerLinks } from '../constants'
 import { Link } from 'react-router-dom';
 import {  iconplab, side } from '../assets';
 
-
-
-// const [active, setActive] = useState("About");
 
 const Footer = () => {
 
@@ -33,9 +31,6 @@ const Footer = () => {
        </h4>
        <ul>
 
-        {/* <li className='light text-white text-[20px]'>
-          
-        </li> */}
              <p className={`${styles.paragraph} text-white light font-normal text-[18px] hover:text-blue-500    
              cursor-pointer`}  >
         

@@ -28,7 +28,7 @@ const toggleItemmm = () => {
 
 
   return (
-    <section className={`${styles.flexCenter} flex flex-col flex flex-row mt-20 mb-20 spin ` }>
+    <section className={`${styles.flexCenter} flex flex-col flex flex-row mt-20 mb-20 ` }>
         <div className='mb-20 max-w-[470px] mx-auto mt-5'>
       <FadeIn>
      <div className='border-work p-4 '>
@@ -71,7 +71,7 @@ const toggleItemmm = () => {
 {showItemm  && (
     <div>
         <p className='light text-[16px] text-white max-w-[320px] mt-5 text-center mx-auto   '>
-            Fill form on contact page <Link to='/contact' className='text-center mt-2'> <img src={side} className='w-[12%] mx-auto'/></Link>
+            Fill form on contact page <Link to='/contact' className='text-center mt-2'> <img src={side} className='w-[10%] mx-auto'/></Link>
         </p>
     </div>
  
