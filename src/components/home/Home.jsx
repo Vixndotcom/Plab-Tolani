@@ -44,7 +44,7 @@ useEffect(() =>{
 
 {/* hero section */}
 
-   <Parallax strength={800}  bgImage={transparent} height={400} > 
+   <Parallax strength={900}  bgImage={transparent} height={400} > 
 
 
    <div className={`${styles.flexStart} `} >
@@ -63,11 +63,11 @@ useEffect(() =>{
     {/* </div> */}
 
 
-    <Parallax strength={800}   >
+    <Parallax strength={900}   >
         
         
       
-    <Background  style={{width:'100vw'}} className='celll mt-10'  >
+    <Background  style={{width:'100vw'}} className='celll mt-20'  >
          <img src={med} alt=""  />
   
         
@@ -90,7 +90,7 @@ useEffect(() =>{
         
         </Parallax>
    
-        <Parallax strength={800}  >
+        <Parallax strength={900}  >
         <Background  style={{width:'100vw'}} className='celll mt-20'  >
          <img src={symbol} alt=""  />
   
@@ -110,7 +110,7 @@ useEffect(() =>{
      
      </Parallax>
 
-     <Parallax strength={800}  >
+     <Parallax strength={900}  >
         <Background  style={{width:'100vw'}} className='celll mt-20'  >
          <img src={bulb} alt=""  />
   
@@ -134,7 +134,7 @@ useEffect(() =>{
  
        
       
-     <Parallax strength={800}  >
+     <Parallax strength={900}  >
         <Background  style={{width:'100vw'}} className='celll mt-20'  >
          <img src={settings} alt=""  />
   
