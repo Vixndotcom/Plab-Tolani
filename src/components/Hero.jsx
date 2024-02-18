@@ -20,20 +20,22 @@ const hero = () => {
 
 
     {/* heading */}
- <div className={`${styles.flexCenter} flex flex-row justify-between items-center w-full ` }>
- <h1 className="flex-1 light text-bold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] items-center text-center ">
+ <div className={`${styles.flexCenter} flex flex-col  items-center w-full ` }>
+ <h1 className="flex light text-bold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] items-center text-center ">
      <FadeIn>
-     Welcome to <br /> {""} 
+     Welcome to <br /> 
      </FadeIn>
-  
+  </h1>
     <FadeIn >
-    <span className=' plab font-medium text-blue-800 text-center text-gradient border-white p-4 ss:p-2 mx-auto mt-10 mb-10 '>
+      <div className='text-center border-white mx-auto  flex justify-center items-center mr-1 '>
+    <h1 className=' plab font-medium text-blue-800  ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] items-center justify-center text-center   text-gradient  p-4 ss:p-2  mx-auto  '>
    
         PLABAID
      
-    </span>
+    </h1>
+    </div>
     </FadeIn>
-   </h1>
+   
 {/* button */}
  <div className='ss:flex hidden md:mr-4 mr-0'>
  
@@ -52,8 +54,8 @@ const hero = () => {
     </FadeIn> 
 
     <Hidden>
-    <p className={`${styles.paragraphh} modern-squared sm:max-w-[470px] max-w-[292px]  text-dimWhite font-medium tracking-wide text-center glass mb-10 p-4  rounded-[10px] mt-5  `}>
-          We specialize in sculpting standout CVs specifically for your <span className='font-semibold text-[20px]'>Plab</span>   journey.
+    <p className={`${styles.paragraphh} modern-squared sm:max-w-[470px] max-w-[292px]  text-dimWhite font-medium tracking-wide  text-center glass mb-10 p-4  rounded-[10px] mt-5  `}>
+          We specialize in sculpting standout CVs specifically for your <span className='font-semibold text-[20px]'>PLAB</span>   journey.
         
         </p>
         </Hidden>

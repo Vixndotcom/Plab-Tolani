@@ -406,6 +406,8 @@ body{
 
 }
 
+
+
 .border-book {
   margin: auto;
   border: 1px solid white;
@@ -615,3 +617,25 @@ body{
   width: 100vw;
   height: 100vh;
 }
+
+@media(max-width:620px) {
+  .border-white{
+    width:372px;
+    margin:auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+  }
+}
+@media(max-width:390px) {
+  .border-white{
+    width:352px;
+    margin:auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}}
