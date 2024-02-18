@@ -11,7 +11,7 @@ const FeatureCard = ({img, title, content, index}) => (
  
   
 <Hidden>
-  <div className= { ` flex rounded-t-[20px] flex-row p-6 ${index !== features.length - 1 ? "mb-6" : "mb-0" } bg-card  max-w-[470px] max-h-[132px]` }>
+  <div className= { ` flex rounded-t-[20px] flex-row p-6 ${index !== features.length - 1 ? "mb-6" : "mb-0" } bg-card  max-w-[470px] ` }>
    
      <div className={`w-[64px] h-[64px] ${styles.flexCenter}`}>
        <img src={img} alt="icon" className='w-[100%] h-[100%]  object-contain'/>
@@ -21,7 +21,7 @@ const FeatureCard = ({img, title, content, index}) => (
         <h4 className='plab text-white font-medium'>
           {title}
         </h4>
-        <p className='light text-dimWhite mt-2'>
+        <p className='light text-dimWhite mt-2 mb-2'>
           {content}
         </p>
       </div>
