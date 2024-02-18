@@ -36,7 +36,7 @@ const Medic = () => {
 
        <BodyAni>
         <div className=' flex flex  flex-col borderr containerr' ref={el => (containerr = el)}>
-          <img src={up} alt="" className='w-[64px] h-[64px] p-2 mx-2  ' />
+          <img src={up} alt="" className='w-[64px] h-[64px] p-2 mx-2  mb-1' />
 
           <div className='mt-2'>
             <img src={medic} alt="star" className="  middle  object-contain clip  " ref={el => (pictureRef = el)} />
