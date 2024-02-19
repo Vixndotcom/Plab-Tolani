@@ -63,7 +63,7 @@ useEffect(() =>{
     {/* </div> */}
 
 
-    <Parallax strength={900}   >
+    <Parallax strength={900}  height={600} >
         
         
       
@@ -90,7 +90,7 @@ useEffect(() =>{
         
         </Parallax>
    
-        <Parallax strength={900}  >
+        <Parallax strength={900} height={600}>
         <Background  style={{width:'100vw'}} className='celll mt-20'  >
          <img src={symbol} alt=""  />
   
@@ -110,7 +110,7 @@ useEffect(() =>{
      
      </Parallax>
 
-     <Parallax strength={900}  >
+     <Parallax strength={900} height={600} >
         <Background  style={{width:'100vw'}} className='celll mt-20'  >
          <img src={bulb} alt=""  />
   
@@ -134,7 +134,7 @@ useEffect(() =>{
  
        
       
-     <Parallax strength={900}  >
+     <Parallax strength={900}  height={600}>
         <Background  style={{width:'100vw'}} className='celll mt-20'  >
          <img src={settings} alt=""  />
   
