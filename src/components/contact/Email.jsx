@@ -23,7 +23,7 @@ const Email = () => {
       <Hidden>
       <p className={`${styles.paragraph} text-black flex light font-normal text-[20px] p-4 mx-1 cursor-pointer`}  >
         
-          <a href={`mailto:${emailAddress}`}>{emailAddress}<img src={upp} alt="" className='w-[8%] mt-2' /> </a>
+          <a href={`mailto:${emailAddress}`}>{emailAddress}<img src={upp} alt="" className='w-[8%] mt-1' /> </a>
           
       </p>
 
