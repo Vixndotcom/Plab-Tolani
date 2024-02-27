@@ -31,9 +31,9 @@ const Email = () => {
       <Hidden>
       <p className={`${styles.paragraph} text-black light font-normal text-[20px] p-4 mx-1 cursor-pointer`} onClick={openWhatsapp} >
         
-       Chat on Whatsapp 
+       Chat on Whatsapp <span><img src={upp} alt="" className='w-[8%]' onClick={openWhatsapp} /></span>
       </p>
-      <img src={upp} alt="" className='w-[4%]' onClick={openWhatsapp} />
+      
 
       </Hidden>
       </div >
