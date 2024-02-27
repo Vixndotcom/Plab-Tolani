@@ -1,11 +1,15 @@
 import React from 'react'
 import styles from '../../style'
 import Hidden from '../home/Hidden';
+import { go, up, upp } from '../../assets';
 
 const Email = () => {
    const emailAddress = 'contact.plabaid@gmail.com';
-
-
+ const phoneNumber = '447831677219'
+ 
+ const openWhatsapp = () => {
+  window.open(`https://wa.me/${phoneNumber}`);
+ };
 
   return (
     <section className='mt-20 mb-5 ' >
@@ -17,11 +21,19 @@ const Email = () => {
    
 
       <Hidden>
-      <p className={`${styles.paragraph} text-black light font-normal text-[20px] p-4 mx-1 cursor-pointer`}  >
+      <p className={`${styles.paragraph} text-black flex light font-normal text-[20px] p-4 mx-1 cursor-pointer`}  >
         
-          <a href={`mailto:${emailAddress}`}>{emailAddress}</a>
-
+          <a href={`mailto:${emailAddress}`}>{emailAddress}<img src={upp} alt="" className='w-[8%] mt-2' /> </a>
+          
       </p>
+
+      </Hidden>
+      <Hidden>
+      <p className={`${styles.paragraph} text-black light font-normal text-[20px] p-4 mx-1 cursor-pointer`} onClick={openWhatsapp} >
+        
+       Chat on Whatsapp 
+      </p>
+      <img src={upp} alt="" className='w-[4%]' onClick={openWhatsapp} />
 
       </Hidden>
       </div >

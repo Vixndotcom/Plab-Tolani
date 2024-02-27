@@ -18,6 +18,8 @@ import shake from './handshake.jpg'
 import study from './study.jpg'    
 import strategy from './strategy.jpg'   
 import up from './up.png' 
+import go from './go.png' 
+import upp from './upp.png' 
 
 import hand from './hand.jpg'
 
@@ -34,6 +36,8 @@ import transparent from './transparent.png'
 
 
 export {
+    go,
+    upp,
     settings,
     bulb,
     symbol,

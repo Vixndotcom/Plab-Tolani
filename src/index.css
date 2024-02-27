@@ -585,9 +585,9 @@ body{
 }
 
 .border-step {
-  border-bottom-width: thin;
+  border-bottom: .2px solid white;
   border-color: white;
-border-bottom-style:solid ;
+
 }
 
 .border-work {

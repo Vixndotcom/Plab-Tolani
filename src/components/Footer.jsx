@@ -60,7 +60,7 @@ const Footer = () => {
 
         <li className='light text-white text-[18px] '>
         <h2 className='mt-2 mb-2 hover:text-blue-500'>
-          <Link to='/home'>Home</Link>
+          <Link to='/'>Home</Link>
       
         </h2>
         <h2 className='mt-2 mb-2 hover:text-blue-500 '>

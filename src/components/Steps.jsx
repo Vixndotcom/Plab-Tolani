@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from '../style'
-import { arrowform, arrowside, purple, side } from '../assets';
+import { arrowform, arrowside, go, purple, side, upp } from '../assets';
 import Hidden from './home/Hidden';
 import FadeIn from './home/FadeIn';
 import { Link } from 'react-router-dom';
@@ -71,7 +71,7 @@ const toggleItemmm = () => {
 {showItemm  && (
     <div>
         <p className='light text-[16px] text-white max-w-[320px] mt-5 text-center mx-auto   '>
-            Fill form on contact page <Link to='/contact' className='text-center mt-2'> <img src={side} className='w-[10%] mx-auto'/></Link>
+            Fill form on contact page <Link to='/contact' className='text-center mt-2'> <img src={go} className='w-[10%] mx-auto'/></Link>
         </p>
     </div>
  

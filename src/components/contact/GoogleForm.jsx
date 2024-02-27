@@ -36,7 +36,7 @@ const GoogleForm = () => {
 
 
    <button onClick={toggleForm} className='light font-normal text-[20px] flex'> <span className='mt-4 mr-4'>Please Fill Form </span>
-   <img src={showForm ? arrowform : sideform } className='' />
+   <img src={showForm ? arrowform : sideform } className='w-[16%]' />
    </button> 
 
    </Hidden>
@@ -47,10 +47,10 @@ const GoogleForm = () => {
 
     <div className={`${styles.flexCenter} justify-content-center mt-10 mb-5 `}>
       <div className='mx-auto text-center '>
-      {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZvO2LWkH-2hPvRqdnTrcXgZlSw6WDT4xBg6Wze646tjG99g/viewform?embedded=true" width="640" height="1275" frameborder="0"
-       marginheight="0" marginwidth="0" className='forms'>Loading…</iframe> */}
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSHzjLdoicTX1ZOEfGmRkK_zW3s-4-q3cpzGDdg-E9R1egHw/viewform?embedded=true" width="640" height="1280" frameborder="0" marginheight="0" marginwidth="0"
-className='forms'>Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSHzjLdoicTX1ZOEfGmRkK_zW3s-4-q3cpzGDdg-E9R1egHw/viewform?embedded=true" width="640" height="1280" frameborder="0" marginheight="0" marginwidth="0" className='forms'>Loading Form</iframe>
+{/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSHzjLdoicTX1ZOEfGmRkK_zW3s-4-q3cpzGDdg-E9R1egHw/viewform?embedded=true" width="640" height="1280" 
+frameborder="0" marginheight="0" marginwidth="0"
+className='forms'>Loading…</iframe> */}
       </div>
     </div>
 
@@ -66,18 +66,3 @@ export default GoogleForm
 
 
 
-
-// const GoogleForm = () => {
-//   return (
-//     <div className={`${styles.flexCenter} justify-content-center mt-20 mb-5 `}>
-//       <div className='mx-auto text-center'>
-//       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZvO2LWkH-2hPvRqdnTrcXgZlSw6WDT4xBg6Wze646tjG99g/viewform?embedded=true" width="640" height="1275" frameborder="0"
-//        marginheight="0" marginwidth="0" className='forms'>Loading…</iframe>
-
-
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default GoogleForm

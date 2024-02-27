@@ -55,7 +55,7 @@ const hero = () => {
 
     <Hidden>
     <p className={`${styles.paragraphh} modern-squared sm:max-w-[470px] max-w-[292px]  text-dimWhite font-medium tracking-wide  text-center glass mb-10 p-4  rounded-[10px] mt-5  `}>
-          We specialize in sculpting standout CVs specifically for your <span className='font-semibold text-[20px]'>PLAB</span>   journey.
+          We specialize in designing standout CVs specifically for your <span className='font-semibold text-[20px]'>PLAB</span>   journey.
         
         </p>
         </Hidden>
