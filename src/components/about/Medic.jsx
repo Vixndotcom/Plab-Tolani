@@ -31,7 +31,7 @@ const Medic = () => {
 
 
   return (
-    <section className={`${styles.flexCenter} flex flex-col flex flex-row mt-20 mb-5`}>
+    <section className={`${styles.flexCenter} flex flex-col flex flex-row mt-20 mb-10`}>
       <div className='about md:max-w-[60%] md:text-[36px]  justify-content-center xl:px-0 p-2  '>
 
        <BodyAni>
