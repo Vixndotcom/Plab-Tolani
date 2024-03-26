@@ -41,7 +41,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div   className={`${styles.flexCenter} bg-body1`}>
+      <div   className={`${styles.flexCenter} bg-body1 `}>
         <div   className={`${styles.boxWidth}  `}>
         < Recruitment />
         </div>
