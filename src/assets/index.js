@@ -33,9 +33,11 @@ import transparent from './transparent.png'
     import symbol from './symbol.jpg'
     import bulb from './bulb.jpg'
     import settings from './settings.jpg'
+    import flower from './flower.jpg'
 
 
 export {
+    flower,
     go,
     upp,
     settings,

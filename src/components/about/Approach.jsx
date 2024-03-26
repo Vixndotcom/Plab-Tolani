@@ -1,0 +1,19 @@
+import React from 'react'
+import { flower } from '../../assets'
+
+export const Approach = () => {
+  return (
+    // <section className=''>
+          <div className='scroll-container'>
+            <div className='scroll-box sroll-top '>Unlock</div>
+            <div className='scroll-box sroll-top'>Simplify</div>
+            <div className='scroll-box sroll-top'>Transform</div>
+            <div className='scroll-box sroll-top'>Navigate</div>
+            <div className='scroll-box sroll-top'>Perfect</div>
+          <h1 className='text-black text-[28px] font-bold'>your <span className='text-[24px]'>PLAB</span></h1>
+          </div>
+
+    
+        // </section>
+  )
+}

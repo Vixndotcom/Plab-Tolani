@@ -5,6 +5,7 @@ import CvMaster from "./CvMaster";
 import Medic from './Medic';
 import Recruitment from "./Recruitment";
 import Loaderr from "../Loaderr";
+import { Approach } from "./Approach";
 
 
 const AboutUs = () => {
@@ -25,7 +26,7 @@ const AboutUs = () => {
         < Medicals />
         </div>
       </div>
-<div className="">
+<div className="bg-white">
 
 
       <div   className={`${styles.flexCenter} bg-bodyy `}>
@@ -34,20 +35,32 @@ const AboutUs = () => {
         </div>
       </div>
    
-      <div    className={`${styles.flexCenter} bg-white`}>
+      <div    className={`${styles.flexCenter} `}>
         <div     className={`${styles.boxWidth}   `}>
         < CvMaster />
         </div>
       </div>
 
-      <div   className={`${styles.flexCenter} bg-bodyy`}>
+      <div   className={`${styles.flexCenter} bg-body1`}>
         <div   className={`${styles.boxWidth}  `}>
         < Recruitment />
         </div>
       </div>
+        <div className="bg-white">
+
+        </div>
+
+
+      <div className="bg-white h-[500px] mt-24">
+        <div className="bg-approach ">
+ <Approach />
+        </div>
+      </div>
 
    </div>
+      
 
+   
 
   </div>
 
