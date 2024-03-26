@@ -25,22 +25,22 @@ const AboutUs = () => {
         < Medicals />
         </div>
       </div>
-<div className="bg-bodyy">
+<div className="">
 
 
-      <div   className={`${styles.flexCenter}  `}>
+      <div   className={`${styles.flexCenter} bg-bodyy `}>
         <div  className={`${styles.boxWidth}  `}>
         < Medic />
         </div>
       </div>
    
-      <div    className={`${styles.flexCenter} `}>
+      <div    className={`${styles.flexCenter} bg-white`}>
         <div     className={`${styles.boxWidth}   `}>
         < CvMaster />
         </div>
       </div>
 
-      <div   className={`${styles.flexCenter} `}>
+      <div   className={`${styles.flexCenter} bg-bodyy`}>
         <div   className={`${styles.boxWidth}  `}>
         < Recruitment />
         </div>
