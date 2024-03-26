@@ -30,7 +30,7 @@ tl.to(containerr, 2, {css: {visibility: 'visible'} }).to(
 
 
 return (
-  <section className={`${styles.flexCenter} flex flex-col flex flex-row mt-10 mb-5    ` }>
+  <section className={`${styles.flexCenter} flex flex-col flex flex-row mt-10 mb-10  ` }>
 
     <div className='about md:max-w-[60%] md:text-[36px]  justify-content-center xl:px-0 p-2  ' >  
 {/* first card */}

@@ -78,7 +78,7 @@ body{
   background-image: url(assets/mind.jpg);
   background-attachment: fixed;
    background-position: center; 
-   height: 700px; 
+   /* height: 700px;  */
    background-repeat:repeat; 
   background-size: contain;
 
