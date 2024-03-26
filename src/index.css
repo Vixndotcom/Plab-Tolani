@@ -78,8 +78,8 @@ body{
   background-image: url(assets/mind.jpg);
   background-attachment: fixed;
    background-position: center; 
-   height: 600px; 
-   background-repeat:no-repeat; 
+   height: 700px; 
+   background-repeat:repeat; 
   background-size: contain;
 
 }
